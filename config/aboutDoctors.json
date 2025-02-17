@@ -1,0 +1,22 @@
+[
+    {
+        "name": "David Hawkings",
+        "department": "TTS",
+        "image": "img/team-1.jpg"
+    },
+    {
+        "name": "Smo Hawkings",
+        "department": "TTS",
+        "image": "img/team-2.jpg"
+    },
+    {
+        "name": "David Hawkings",
+        "department": "TTS",
+        "image": "img/team-3.jpg"
+    },
+    {
+        "name": "David Hawkings",
+        "department": "TTS",
+        "image": "img/team-4.jpg"
+    }
+]

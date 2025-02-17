@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Cardilogy",
+        "icon": "fa fa-heartbeat text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    },
+    {
+        "name": "Pulmonary",
+        "icon": "fa fa-x-ray text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    },
+    {
+        "name": "Neurology",
+        "icon": "fa fa-brain text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    },
+    {
+        "name": "Orthopedics",
+        "icon": "fa fa-brain text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    },
+    {
+        "name": "Dental Surgery",
+        "icon": "fa fa-tooth text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    },
+    {
+        "name": "Laboratory",
+        "icon": "fa fa-vials text-primary fs-4",
+        "comment": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet."
+    }
+]

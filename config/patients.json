@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Kate Samanta",
+        "comment": "Un clítico es un elemento gramatical que se escribe como una palabra o partícula átona independiente, pero se pronuncia como parte de la palabra anterior o siguiente",
+        "profession": "Doctor",
+        "image": "img/testimonial-1.jpg"
+    },
+    {
+        "name": "Kate Samanta",
+        "comment": "Un clítico es un elemento gramatical que se escribe como una palabra o partícula átona independiente, pero se pronuncia como parte de la palabra anterior o siguiente",
+        "profession": "Doctor",
+        "image": "img/testimonial-2.jpg"
+    },
+    {
+        "name": "Kate Samanta",
+        "comment": "Un clítico es un elemento gramatical que se escribe como una palabra o partícula átona independiente, pero se pronuncia como parte de la palabra anterior o siguiente",
+        "profession": "Doctor",
+        "image": "img/testimonial-3.jpg"
+    }
+]

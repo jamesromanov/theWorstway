@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Alexa Sabrina",
+        "department": "TTP",
+        "image": "img/team-1.jpg"
+    },
+    {
+        "name": "John Doe",
+        "department": "TTP",
+        "image": "img/team-2.jpg"
+    },
+    {
+        "name": "Jorgina Veirgin",
+        "department": "TTP",
+        "image": "img/team-3.jpg"
+    },
+    {
+        "name": "david O'hern",
+        "department": "TTP",
+        "image": "img/team-4.jpg"
+    }
+]
