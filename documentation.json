@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "0cad5565-a01d-4647-92d6-58ce71e8ab2a",
+		"name": "UserRestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41717468"
+	},
+	"item": [
+		{
+			"name": "statusSite",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				},
+				"description": "bu mtethod esa 3000 pord da ishlayotgan asytni render qilib beraddi backeendan"
+			},
+			"response": []
+		},
+		{
+			"name": "submitProblem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"name\": \"someone\",\r\n    \"email\": \"some@gamil.com\",\r\n    \"problemText\": \"some probleb is meant to be there\",\r\n    \"date\": \"12/12/2025\",\r\n    \"selectDoctors\": \"2\",\r\n    \"mobile\": \"9989904333\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				},
+				"description": "bu method esa submitProblem..json fayliga problem haqida malumotlar saqlaydi'"
+			},
+			"response": []
+		},
+		{
+			"name": "submitEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"some@gamil.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/sub",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sub"
+					]
+				},
+				"description": "BU method inputdan email malumotni bazaga saqlab boradi yani json footerSubmit.json fayliga saqlab boradi"
+			},
+			"response": []
+		},
+		{
+			"name": "aboutSbmit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"some@gamil.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				},
+				"description": "bu method esa email orqali email submi qiladi rng oxririda vaa buni aboutSub.json fayliga saqylaydi"
+			},
+			"response": []
+		},
+		{
+			"name": "aboutStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/about",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"about"
+					]
+				},
+				"description": "bu method esa about pageni backend dan render qiladi"
+			},
+			"response": []
+		},
+		{
+			"name": "servicStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/service",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"service"
+					]
+				},
+				"description": "bu method esa service qismin backenddan qaytarada render qilib"
+			},
+			"response": []
+		},
+		{
+			"name": "seviceSubmit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"somaenam\",\r\n    \"email\": \"email@gamil.com\",\r\n    \"problemText\": \"problem text\",\r\n    \"date1\": \"12/334/33\",\r\n    \"data2\": \"13:34\",\r\n    \"selectDoctors\": \"2\",\r\n    \"mobile\": \"182792y992\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/service/sub",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"service",
+						"sub"
+					]
+				},
+				"description": "bu method esa muammoni nomi va shunga oxshash narsaalarni yozadi yani qabul bu malumotlarni borib\n\nfooterSubmit.json fayliga borib yozib keladi"
+			},
+			"response": []
+		}
+	]
+}
