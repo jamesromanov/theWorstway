@@ -1,9 +1,8 @@
 const express = require("express");
 
-const router = express.Router();
-
 let renderCnt = require("../controller/contact.controller");
+let routerCon = express.Router();
 
-router.get("/", renderCnt.renderContact);
+routerCon.get("/", renderCnt.renderContact);
 
-module.exports = router;
+module.exports = routerCon;
