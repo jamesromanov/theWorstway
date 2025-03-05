@@ -5,6 +5,12 @@ const path = require("path");
 const renderHome = require("../router/clinics.router.js");
 const renderAbout = require("../router/about.route.js");
 const serviceRouter = require("../router/service.router.js");
+const { render404 } = require("../controller/404.controller.js");
+const { renderApp } = require("../controller/appoinment.controller.js");
+const { renderContact } = require("../controller/contact.controller.js");
+const { renderFeature } = require("../controller/feature.controller.js");
+const { renderTeam } = require("../controller/team.controller.js");
+const { renderTes } = require("../controller/testimonial.controller.js");
 
 let app = express();
 app.use(express.json());
@@ -13,7 +19,13 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "../public/view"));
 app.use(express.static(path.join(__dirname, "../public")));
 app.use("/", renderHome);
+app.use("/err", render404);
+app.use("/appointment", renderApp);
 app.use("/about", renderAbout);
+app.use("/contact", renderContact);
+app.use("/feature", renderFeature);
+app.use("/team", renderTeam);
 app.use("/service", serviceRouter);
+app.use("/testimonial", renderTes);
 
 module.exports = app;
